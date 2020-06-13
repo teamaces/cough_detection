@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+        <style>
+            .div{
+                    background-color:gray;
+                    padding: inherit;
+                    margin-left: 400px;
+                    margin-right: 400px;
+                    border-radius: 10px;
+            }
+            .fl1{
+                    text-align: center;
+                    margin-top: 100px;
+                    padding-top: 30px;
+            } 
+            .item{
+                margin-top: 50px;
+                padding-bottom: 5px;
+            }
+        </style>
+</head>
+<title>Cough App</title>
+<body style="text-align: center">
+    <div class="div">
+        <h2 class="fl1">Prediction</h2>
+        <div class="item">
+            <img src = "{{ photo }}" />
+            <p>Sound Type: {{ sound }}</p>
+        </div>
+    </div>
+</body>
+</html>
